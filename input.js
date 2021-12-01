@@ -7,15 +7,19 @@ const handleUserInput = function(data) {
   switch(data) {
     case "w":
       connection.write("Move: up");
+      connection.write("Say: uuu");
       break;
     case "a":
       connection.write("Move: left");
+      connection.write("Say: let");
       break;
     case "s":
       connection.write("Move: down");
+      connection.write("Say: dep");
       break;
     case "d":
       connection.write("Move: right");
+      connection.write("Say: okk");
   }
 };
 
